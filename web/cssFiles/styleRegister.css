@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+table {
+	border: 1px solid gray;
+	padding: 20px;
+	background-color: #CCCCCC;
+}
+
+#register {
+	position: relative;
+	top: 20px;
+}
+
+.tooltip {
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #161616;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	font-size: 10px Arial;
+}
+
+.register-error {
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+}
+
+.register-field {
+	font-size: 12px;
+	text-align: right;
+	color: black;
+}

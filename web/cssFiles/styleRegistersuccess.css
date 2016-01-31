@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+#message {
+	position: relative;
+	top: 50px;
+	width: 300px;
+	border: 1px solid gray;
+	font: bold 14px "Times New Roman", Times, serif;
+	padding: 20px;
+	background-color: #CCCCCC;
+	text-align: center;
+	color: black;
+}
+
+.index-link {
+	position: relative;
+	top: 80px;
+}
+
+.bigger-text {
+	font-size: 16px;
+}
+
+.attribute-text {
+	text-align: left;
+	font-style: italic;
+}

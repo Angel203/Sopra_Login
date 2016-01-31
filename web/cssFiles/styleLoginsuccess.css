@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+#message {
+	position: relative;
+	top: 50px;
+	width: 300px;
+	border: 1px solid gray;
+	font: bold 18px "Times New Roman", Times, serif;
+	padding: 20px;
+	background-color: #CCCCCC;
+	text-align: center;
+	color: black;
+}

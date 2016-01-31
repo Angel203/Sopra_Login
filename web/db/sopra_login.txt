@@ -1,0 +1,14 @@
+CREATE TABLE Benutzer(
+BenutzerID int IDENTITY,
+Vorname varchar(50) not null,
+Name varchar(50) not null,
+Email varchar(50) not null,
+Passwort varchar(255) not null,
+RollenID int
+);
+
+CREATE TABLE Administrator(
+AdministratorID int IDENTITY,
+Benutzername varchar(50) not null,
+Passwort varchar(255) not null
+);
