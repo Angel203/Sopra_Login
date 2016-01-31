@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>Home</title>
+    <title>Home Hiwi</title>
     <link rel="stylesheet" href="cssFiles/styleBasic.css" type="text/css"/>
     <link rel="stylesheet" href="cssFiles/styleHome.css" type="text/css"/>
 
@@ -32,11 +32,13 @@
 </p>
 <p class="hideonprint leftmargin">
     Rolle:
-    Benutzer
+    Hiwi
 </p>
-<center>
 
-    <p>Sie wurden noch keiner Rolle zugewiesen.</p>
+<center>
+    <p>
+        Hallo Hiwi.
+    </p>
 
 </center>
 </body>

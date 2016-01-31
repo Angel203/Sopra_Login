@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>Home</title>
+    <title>Home Admin</title>
     <link rel="stylesheet" href="cssFiles/styleBasic.css" type="text/css"/>
     <link rel="stylesheet" href="cssFiles/styleHome.css" type="text/css"/>
 
@@ -17,7 +17,6 @@
     }
 %>
 <body>
-
 <p class="hideonprint align-right">
     <a class="rightmargin"
        href="<%=response.encodeURL(request.getContextPath() + "/Controller?action=logout")%>">Logout</a>
@@ -27,17 +26,18 @@
     <%=session.getAttribute("username")%>
 </p>
 <p class="hideonprint leftmargin">
-    Account ID:
+    Admin ID:
     <%=session.getAttribute("accountID")%>
 </p>
 <p class="hideonprint leftmargin">
     Rolle:
-    Benutzer
+    Admin
 </p>
+
 <center>
-
-    <p>Sie wurden noch keiner Rolle zugewiesen.</p>
-
+    <p>
+        Hallo Admin.
+    </p>
 </center>
 </body>
 </html>
